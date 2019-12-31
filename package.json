@@ -1,0 +1,19 @@
+{
+  "name": "web-express",
+  "version": "1.0.0",
+  "description": "Belajar membuat website menggunakan Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fahmi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
