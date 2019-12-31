@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "image": "/images/blog/01.jpg",
+        "name": "satu"
+    },
+    {
+        "id": 2,
+        "image": "/images/blog/01.jpg",
+        "name": "dua"
+    },
+    {
+        "id": 3,
+        "image": "/images/blog/01.jpg",
+        "name": "tiga"
+    },
+    {
+        "id": 4,
+        "image": "/images/blog/01.jpg",
+        "name": "empat"
+    },
+    {
+        "id": 5,
+        "image": "/images/blog/01.jpg",
+        "name": "lima"
+    },
+    {
+        "id": 6,
+        "image": "/images/blog/01.jpg",
+        "name": "enam"
+    },
+    {
+        "id": 7,
+        "image": "/images/blog/01.jpg",
+        "name": "tujuh"
+    },
+    {
+        "id": 8,
+        "image": "/images/blog/01.jpg",
+        "name": "delapan"
+    }
+]

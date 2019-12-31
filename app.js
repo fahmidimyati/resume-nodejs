@@ -4,6 +4,8 @@ const data = require('./models/items.json')
 const about = require('./models/about.json')
 const heading = require('./models/heading.json')
 const footer = require('./models/footer.json')
+const kemampuan = require('./models/kemampuan.json')
+const works = require('./models/works.json')
 
 const app = express()
 
@@ -20,7 +22,9 @@ app.get('/', (req, res) => {
         about:about, 
         items:data,
         heading:heading,
-        footer:footer
+        footer:footer,
+        kemampuan:kemampuan,
+        works:works
     })
 })
 

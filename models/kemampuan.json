@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Networking",
+        "percent": 90
+    },
+    {
+        "id": 2,
+        "name": "Programming",
+        "percent": 80
+    },
+    {
+        "id": 3,
+        "name": "Php",
+        "percent": 70
+    },
+    {
+        "id": 4,
+        "name": "Node Js",
+        "percent": 85
+    },
+    {
+        "id": 5, 
+        "name": "Javascript",
+        "percent": 75
+    },
+    {
+        "id": 6,
+        "name": "Laravel",
+        "percent": 90
+    }
+]
