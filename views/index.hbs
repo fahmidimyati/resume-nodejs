@@ -8,7 +8,7 @@
   <meta name="keywords" content="onepage, resume, CV HTML template, personal Vcard, html resume, free resume template, free HTML template, free bootstrap template, personal portfolio, free html portfolio">
 	<meta name="author" content="http://trendytheme.net/">
 
-	<title>IAMX – Responsive Personal Portfolio vCard Template</title>
+	<title>{{ title }}</title>
 
   <!-- Web Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
@@ -84,7 +84,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+					<a class="navbar-brand" href="/"><img src="images/logo1.png" alt=""></a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="custom-collapse">
@@ -304,14 +304,13 @@
     <section id="works" class="works-section section-padding">
       <div class="container">
         <h2 class="section-title wow fadeInUp">Works</h2>
-
         <div class="row">
           {{#each works}}    
             <div class="portfolio-item col-xs-12 col-sm-3">
               <div class="portfolio-bg">
                 <div class="portfolio">
                   <div class="tt-overlay"></div>
-                  <img src="{{ image }}" alt="image"> 
+                  <img  height="200px" src="{{ image }}" alt="image"> 
                   <div class="portfolio-info">
                     <h3>{{ name }}</h3>
                   </div><!-- /.portfolio-info -->
@@ -336,14 +335,14 @@
             <article class="blog-post-wrapper">
               <div class="figure">    
                 <div class="post-thumbnail">
-                  <a href="#"><img src="{{ image }}" class="img-responsive " alt=""></a>
+                  <a href="#"><img height="250px" src="{{ image }}" class="img-responsive " alt=""></a>
                 </div>
                   <i class="fa fa-file-video-o"></i>
               </div><!-- /.figure -->
               <header class="entry-header">
                 <div class="post-meta">
                   <span class="the-category"> 
-                    <a href="#">Print Design,</a> <a href="#">Photoshop</a>
+                    <a href="#">{{ tag }}</a>
                   </span>
                 </div>
                 <h2 class="entry-title"><a href="#" rel="">What is the style of font called that is typically</a></h2>
@@ -393,7 +392,7 @@
           <div class="col-md-6">
             <div class="contact-form">
               <strong>Send me a message</strong>
-              <form name="contact-form" id="contactForm" action="sendemail.php" method="POST">
+              <form action="/contact" method="POST">
 
                 <div class="form-group">
                   <label for="name">Name</label>
@@ -416,18 +415,19 @@
                 </div>
 
                 <button type="submit" name="submit" class="btn btn-primary">Send Message</button>
+                
               </form>
             </div><!-- /.contact-form -->
           </div><!-- /.col-md-6 -->
 
           <div class="col-md-6">
             <div class="row center-xs">
+              {{#each about}}
               <div class="col-sm-6">
                 <i class="fa fa-map-marker"></i>
                 <address>
                   <strong>Address/Street</strong>
-                  239/2 Awesome Street,<br>
-                  Boston, USA<br>
+                  {{ address }}<br>
                 </address>
               </div>
 
@@ -435,16 +435,15 @@
                 <i class="fa fa-mobile"></i>
                 <div class="contact-number">
                   <strong>Phone Number</strong>
-                  (001) 0123 111222<br>
-                  (001) 0123 333444
+                  {{ phone }}
                 </div>
               </div>
             </div>
-
+            {{/each}}
           <div class="row">
             <div class="col-sm-12">
               <div class="location-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.6190356031907!2d90.43443631441595!3d23.76096098458425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8098da100f3%3A0x353f8ffa29807e1a!2sTrendy%20Theme!5e0!3m2!1sen!2sbd!4v1566910443330!5m2!1sen!2sbd" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.4878842612!2d106.68943024255813!3d-6.229728025741654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta!5e0!3m2!1sen!2sid!4v1577894763404!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
               </div>
             </div>
           </div>
@@ -476,6 +475,7 @@
 	</div>
 
 	<!-- Javascript files -->
+
 	<script src="js/jquery.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="js/jquery.stellar.min.js"></script>

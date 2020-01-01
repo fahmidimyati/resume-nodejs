@@ -1,5 +1,8 @@
 const path = require('path')
 const express = require('express')
+const bodyParser = require('body-parser')
+
+var title = "I AM FAHMI";
 const data = require('./models/items.json')
 const about = require('./models/about.json')
 const heading = require('./models/heading.json')
@@ -16,6 +19,8 @@ app.set('view engine', 'hbs')
 
 app.use(express.static('public'))
 
+app.use(bodyParser.urlencoded({extended:true})
+)
 //route homepage
 app.get('/', (req, res) => {
     res.render('index', {
@@ -24,8 +29,14 @@ app.get('/', (req, res) => {
         heading:heading,
         footer:footer,
         kemampuan:kemampuan,
-        works:works
+        works:works,
+        title:title
     })
+})
+
+app.post('/contact', (req, res) => {
+    console.log(req.body)
+    res.render('contact')
 })
 
 

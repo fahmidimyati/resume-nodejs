@@ -3,11 +3,11 @@
         "id" : 1,
         "objective" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nibh posuere, pellentesque leo vitae, ultrices nisi. Nunc mauris orci, vehicula rhoncus neque in, elementum commodo urna. Fusce dictum ac est vitae varius. Suspendisse vitae interdum nibh, at commodo nunc. Donec ullamcorper ante maximus venenatis consequat. Nam justo sem, maximus vel purus at, malesuada sollicitudin nunc. Sed elementum nibh a lacus dapibus aliquet efficitur ac nisl. Donec sapien enim, faucibus ut nunc non, commodo porttitor magna. Suspendisse blandit ipsum libero, ut ornare neque ornare sit amet. Cras nec pharetra nulla.Vivamus vehicula vitae ante vel blandit. Suspendisse potenti. Vestibulum commodo egestas mi, consectetur volutpat augue pellentesque quis. Sed maximus odio id mollis blandit. Praesent dignissim elit quis orci laoreet pretium. Quisque eu nisl at elit mollis pharetra eget et nisi. Nullam ut posuere elit.",
         "whatido": "Suspendisse quis est posuere, congue lorem id, vulputate nulla. Nunc nec lorem ligula. Nullam neque lorem, rhoncus nec sodales eget, pulvinar aliquet elit. Phasellus orci eros, ultrices at risus a, scelerisque tincidunt sapien. Morbi laoreet arcu vel urna euismod posuere. Suspendisse potenti. Aenean in viverra tortor. Donec vel diam rutrum, sodales arcu id, efficitur elit. Ut tincidunt varius erat, non condimentum lectus semper eget. Duis sed quam blandit, condimentum ipsum quis, porta tortor. Aliquam vitae diam efficitur, semper ipsum eu, ornare ante. Nullam rutrum condimentum semper. Sed vel mi ornare, feugiat urna tempus, efficitur purus. Pellentesque quis iaculis nisl, id pretium sem. Morbi fermentum magna eu molestie consectetur. Duis vel nisl ipsum. Sed purus lorem, vehicula a semper iaculis, rutrum nec tellus. Curabitur nec ante eu erat porta sagittis. Sed sit amet mauris at purus placerat consectetur vel quis velit. Nulla at tellus vitae tortor malesuada congue. Aenean a lacus urna. Sed porta ex ac ex porta tristique.",
-        "profile_image": "/images/myphoto.jpg",
-        "name": "fahmi dimiati wibowo",
-        "date": "Jakarta, 24 Maret 1995",
-        "address": "Jl. Pengairan Raya Blok F no 8, Bantar Gebang, Bekasi",
-        "phone":"082297113805",
-        "email":"fahmidimyati96@gmail.com"
+        "profile_image": "/images/fahmi.jpg",
+        "name": "fahmi dimiati",
+        "date": "City, DD-MM-YYYY",
+        "address": "Indonesia",
+        "phone":"0812-0812-0812",
+        "email":"xprojectofficial19@gmail.com"
     }
 ]
