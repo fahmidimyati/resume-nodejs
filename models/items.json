@@ -3,18 +3,27 @@
         "id": 1,
         "image": "/images/blog/coffee.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget purus eleifend, cursus nibh vitae, luctus magna. Morbi vitae rhoncus est, eu maximus dui. Aliquam elementum est sed justo eleifend faucibus. Aliquam volutpat elit vitae velit maximus, in facilisis nibh imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec posuere pulvinar accumsan. ",
-        "tag": "beans coffee"
+        "tag": "beans coffee",
+        "tittle": "Beans Coffee",
+        "created": "Fahmi Dimyati",
+        "date": "1 November 2019"
     },
     {
         "id": 2,
         "image": "/images/blog/coffee2.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget purus eleifend, cursus nibh vitae, luctus magna. Morbi vitae rhoncus est, eu maximus dui. Aliquam elementum est sed justo eleifend faucibus. Aliquam volutpat elit vitae velit maximus, in facilisis nibh imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec posuere pulvinar accumsan. ",
-        "tag": "coffee cup"
+        "tag": "coffee cup",
+        "tittle": "Lets talk about coffee",
+        "created": "Fahmi Dimyati",
+        "date": "10 November 2019"
     },
     {
         "id": 3,
         "image": "/images/blog/coffee3.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget purus eleifend, cursus nibh vitae, luctus magna. Morbi vitae rhoncus est, eu maximus dui. Aliquam elementum est sed justo eleifend faucibus. Aliquam volutpat elit vitae velit maximus, in facilisis nibh imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec posuere pulvinar accumsan. ",
-        "tag": "coffee"
+        "tag": "coffee",
+        "tittle": "Coffee for education",
+        "created": "Fahmi Dimyati",
+        "date": "1 Desember 2019"
     }
 ]
