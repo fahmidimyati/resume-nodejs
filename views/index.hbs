@@ -55,16 +55,6 @@
 			<div class="intro-sub">{{ name }}</div>
 			<h1>{{ job }}</span></h1>
 			<p>{{ description }}</p>
-
-      <div class="social-icons">
-        <ul class="list-inline">
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-behance"></i></a></li>
-          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-          <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-        </ul>
-      </div> <!-- /.social-icons -->
     {{/each}}
     </div>
 
@@ -160,6 +150,7 @@
         <div class="container">
             <h2 class="section-title wow fadeInUp">Resume</h2>
             <div class="row">
+              {{#each education }}
                 <div class="col-md-12">
                     <div class="resume-title">
                         <h3>Education</h3>
@@ -168,66 +159,31 @@
                         <ul class="timeline">
                             <li>
                                 <div class="posted-date">
-                                    <span class="month">2014-2018</span>
+                                    <span class="month">{{date}}</span>
                                 </div><!-- /posted-date -->
 
                                 <div class="timeline-panel wow fadeInUp">
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
-                                            <h3>Bachelor degree certificate</h3>
-                                            <span>BA(Hons) in UI Engineering, Arts University, Pabna, USA</span>
+                                            <h3>{{tittle}}</h3>
+                                            <span>{{place}}</span>
                                         </div><!-- /timeline-heading -->
 
                                         <div class="timeline-body">
-                                            <p>I have completed UI Engineering degree from ABC University, Boston, USA at feel the charm of existence in this spot, which was creat.</p>
+                                            <p>{{description}}</p>
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div><!-- /timeline-panel -->
                             </li>
 
-                            <li class="timeline-inverted">
-                                <div class="posted-date">
-                                    <span class="month">2010-2013</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Higher Secondary certificate</h3>
-                                            <span>Typography Arts, FA College, New York, USA</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>From this college of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
-                            </li>
-
-                            <li>
-                                <div class="posted-date">
-                                  <span class="month">2007-2010</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Secondary school certificate</h3>
-                                            <span>Creative Arts, Julius Jr. school, USA</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>I was awesome at arts, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
                         </ul>
                     </div>
                 </div>
+              {{/each}}
             </div><!-- /row -->
 
             <div class="row">
+              {{#each experience}}
                 <div class="col-md-12">
                     <div class="resume-title">
                         <h3>Experience</h3>
@@ -236,44 +192,27 @@
                         <ul class="timeline">
                             <li class="timeline-inverted">
                                 <div class="posted-date">
-                                  <span class="month">2011-2013</span>
+                                  <span class="month">{{date}}</span>
                                 </div><!-- /posted-date -->
 
                                 <div class="timeline-panel wow fadeInUp">
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
-                                            <h3>Junior ui designer</h3>
-                                            <span>XYZ Design Home, One Street, Boston</span>
+                                            <h3>{{title}}</h3>
+                                            <span>{{place}}</span>
                                         </div><!-- /timeline-heading -->
 
                                         <div class="timeline-body">
-                                            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
+                                            <p>{{description}}</p>
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div> <!-- /timeline-panel -->
                             </li>
 
-                            <li>
-                                <div class="posted-date">
-                                  <span class="month">2013-2015</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Lead UX Consultant</h3>
-                                            <span>Lucky8 Designing Firm, California</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <p>Completely provide access to seamless manufactured products before functionalized synergy. Progressively redefine competitive.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
                         </ul>
                     </div>
                 </div>
+              {{/each}}
             </div><!-- /row -->
         </div><!-- /.container -->
     </section>
@@ -433,7 +372,7 @@
           <div class="row">
             <div class="col-sm-12">
               <div class="location-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.4878842612!2d106.68943024255813!3d-6.229728025741654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta!5e0!3m2!1sen!2sid!4v1577894763404!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.4878842612!2d106.68943024255813!3d-6.229728025741654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta!5e0!3m2!1sen!2sid!4v1577894763404!5m2!1sen!2sid"width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
               </div>
             </div>
           </div>

@@ -9,6 +9,8 @@ const heading = require('./models/heading.json')
 const footer = require('./models/footer.json')
 const kemampuan = require('./models/kemampuan.json')
 const works = require('./models/works.json')
+const education = require('./models/education.json')
+const experience = require('./models/experience.json')
 
 const app = express()
 
@@ -30,7 +32,9 @@ app.get('/', (req, res) => {
         footer:footer,
         kemampuan:kemampuan,
         works:works,
-        title:title
+        title:title,
+        education:education,
+        experience:experience
     })
 })
 
